@@ -23,6 +23,8 @@ The open closed principles dictates that software entities (structs in the realm
 
 ## LSP - Liskov substitution principle
 
+Named after Barbara Liskov, the Liskov substitution principle deals primarily with inheritance and is therefore not directly applicable to Go. The principle dictates that if you have an object of a derived class it should also work correctly with the base class, or that a base class should not have implemented logic that is negated in a class derived from it. They should be interchangeable in the functionality that is covered in the base class.
+
 ## ISP - Interface segregation principle
 
 ## DIP - Dependency inversion principle
