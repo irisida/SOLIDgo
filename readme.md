@@ -19,6 +19,8 @@ A type should have one responsibility and therefore only one reason to change. I
 
 ## OCP - Open closed principle
 
+The open closed principles dictates that software entities (structs in the realms of Go) should be open to extension but closed to modification. This aligns well with the `specification pattern`.
+
 ## LSP - Liskov substitution principle
 
 ## ISP - Interface segregation principle
