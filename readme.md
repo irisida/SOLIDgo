@@ -27,4 +27,6 @@ Named after Barbara Liskov, the Liskov substitution principle deals primarily wi
 
 ## ISP - Interface segregation principle
 
+The simplest of principles in the SOLID design principles. The idea is that an interface should not contain more than it needs to. It makes more sense to break up a large interface to smaller and more reusable interfaces instead of a large interface that would force objects implementing it to needlessly implement unused methods.
+
 ## DIP - Dependency inversion principle
